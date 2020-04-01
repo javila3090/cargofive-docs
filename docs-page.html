@@ -302,7 +302,88 @@
 								<li><b>client_secret:</b> Hash oauth brindado en la generación de tokens.</li>
 							</ul>
 							<br>
-							<p><b>Retorna:</b> JSON con Bearer token (access_token)</p>
+							<p><b>Retorna:</b> JSON con Bearer token (access_token).</p>
+
+							<li><b>Usuario</b></li>
+							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/user</code></p>
+							<p><code><b>Método:</b>GET</code></p>
+							<br>
+							<p><b>Retorna:</b> JSON con el detalle del usuario autenticado.</p>
+
+							<li><b>Lista de cotizaciones</b></li>
+							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/quotes</code></p>
+							<p><code><b>Método:</b>GET</code></p>
+							<p><b>Parámetros</b></p>
+							<ul>
+								<li><b>Integration:</b> True //Si el valor es true, el listado solo devolverá cotizaciones nuevas y/o editadas recientementes, obviando aquellas que ya han sido integradas con anterioridad.</li>
+								<li><b>Type:</b> FCL, LCL o AIR.</li>
+								<li><b>Status:</b> Win, Draft, Sent, Negotiated, Lost.</li>
+								<li><b>Size:</b> Limita la cantidad de registros que retorna la consulta. Indicar un número entero.</li>
+							</ul>
+							<br>
+							<p><b>Retorna:</b>Listado JSON con el detalle de cada cotización asociada al usuario que consulta.</p>
+
+							<li><b>Cotización por ID</b></li>
+							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/quotes/ID</code></p>
+							<p><code><b>Método:</b>GET</code></p>
+							<p><b>Parámetros</b></p>
+							<ul>
+								<li><b>ID:</b> ID de la cotización a consultar.</li>
+							</ul>
+							<br>
+							<p><b>Retorna:</b> JSON con el detalle de la cotización solicitada.</p>
+
+							<li><b>Compañías</b></li>
+							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/companies</code></p>
+							<p><code><b>Método:</b>GET</code></p>
+							<br>
+							<p><b>Retorna:</b> Listado JSON con el detalle de cada compañía cliente asociada al usuario que consulta.</p>
+
+							<li><b>Crear compañía</b></li>
+							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/company</code></p>
+							<p><code><b>Método:</b>POST</code></p>
+							<p><b>Parámetros</b></p>
+							<ul>
+								<li><b>business_name:</b> Nombre de la compañía (único obligatorio).</li>
+								<li><b>phone:</b> Teléfono de la compañía.</li>
+								<li><b>address:</b> Dirección de la compañía.</li>
+								<li><b>email:</b> Dirección de correo electrónico.</li>
+								<li><b>tax_number:</b> Número de contribuyente.</li>
+								<li><b>company_user_id:</b> ID de la compañía a la que pertenece el usuario autenticado.</li>
+								<li><b>owner:</b> ID del usuario autenticado.</li>
+								<li><b>pdf_language:</b> Lenguaje en el cual se genera el PDF para una cotización asociada a la compañía que se está creando.</li>
+								<li><b>payment_conditions:</b> Condiciones de pago.</li>
+							</ul>
+							<br>
+							<p><b>Retorna:</b> Listado JSON con el detalle de cada compañía cliente asociada al usuario que consulta.</p>
+
+							<li><b>Ver Compañía</b></li>
+							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/company/ID</code></p>
+							<p><code><b>Método:</b>GET</code></p>
+							<p><b>Parámetros</b></p>
+							<ul>
+								<li><b>ID:</b> Id de la compañía a consultar.</li>
+							</ul>
+							<br>
+							<p><b>Retorna:</b> JSON con el detalle de la compañía solicitada.</p>
+
+							<li><b>Actualizar Compañía</b></li>
+							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/company/ID</code></p>
+							<p><code><b>Método:</b>PUT</code></p>
+							<p><b>Parámetros</b></p>
+							<ul>
+								<li><b>ID:</b> Id de la compañía a modificar.</li>
+							</ul>
+							<br>
+							<p><b>Importante:</b> Al realizar con pruebas con postman puede que al enviar la petición con PUT, este no complete la acción solicitada (Es una incidencia de postman documentada), de ocurrir esto, cambie el método a POST y agregue dentro del form-data del body lo siguiente: _method: PUT.</p>
+
+							<li><b>Eliminar Compañía</b></li>
+							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/user</code></p>
+							<p><code><b>Método:</b>DELETE</code></p>
+							<p><b>Parámetros</b></p>
+							<ul>
+								<li><b>ID:</b> Id de la compañía a modificar.</li>
+							</ul>
 						</ul>
 
 					</section><!--//section-->
