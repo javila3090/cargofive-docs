@@ -1,79 +1,98 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
+
 <head>
-    <title>CoderDocs - Bootstrap 4 Documentation Template For Software Projects</title>
-    
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <meta name="description" content="Bootstrap 4 Template For Software Startups">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico"> 
-    
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
-    
-    <!-- FontAwesome JS-->
-    <script defer src="assets/fontawesome/js/all.min.js"></script>
-    
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+	<title>CoderDocs - Bootstrap 4 Documentation Template For Software Projects</title>
 
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-</head> 
+	<meta name="description" content="Bootstrap 4 Template For Software Startups">
+	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+	<link rel="shortcut icon" href="favicon.ico">
 
-<body class="docs-page">    
-    <header class="header fixed-top">	    
-        <div class="branding docs-branding">
-            <div class="container-fluid position-relative py-2">
-                <div class="docs-logo-wrapper">
-					<button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible mr-2 d-xl-none" type="button">
-	                    <span></span>
-	                    <span></span>
-	                    <span></span>
-	                </button>
-	                <div class="site-logo"><a class="navbar-brand" href="index.html"><span class="logo-text">Cargofive<span class="text-alt">Docs</span></span></a></div>    
-                </div><!--//docs-logo-wrapper-->
-	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
-	                <div class="top-search-box d-none d-lg-flex">
-		                <form class="search-form">
-				            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
-				            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
-				        </form>
-	                </div>
-	
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+
+	<!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+
+	<!-- Theme CSS -->
+	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+</head>
+
+<body class="docs-page">
+	<header class="header fixed-top">
+		<div class="branding docs-branding">
+			<div class="container-fluid position-relative py-2">
+				<div class="docs-logo-wrapper">
+					<button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible mr-2 d-xl-none"
+						type="button">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+					<div class="site-logo"><a class="navbar-brand" href="index.html"><span
+								class="logo-text">Cargofive<span class="text-alt">Docs</span></span></a></div>
+				</div>
+				<!--//docs-logo-wrapper-->
+				<div class="docs-top-utilities d-flex justify-content-end align-items-center">
+					<div class="top-search-box d-none d-lg-flex">
+						<form class="search-form">
+							<input type="text" placeholder="Search the docs..." name="search"
+								class="form-control search-input">
+							<button type="submit" class="btn search-btn" value="Search"><i
+									class="fas fa-search"></i></button>
+						</form>
+					</div>
+
 					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
 						<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-		                <li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
-		                <li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
-		            </ul><!--//social-list-->
-		            
-	            </div><!--//docs-top-utilities-->
-            </div><!--//container-->
-        </div><!--//branding-->
-    </header><!--//header-->
-    
-    <div class="docs-wrapper">
-	    <div id="docs-sidebar" class="docs-sidebar">
-		    <div class="top-search-box d-lg-none p-3">
-                <form class="search-form">
-		            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
-		            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
-		        </form>
-            </div>
-		    <nav id="docs-nav" class="docs-nav navbar">
-			    <ul class="section-items list-unstyled nav flex-column pb-3">
-				    <li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span class="theme-icon-holder mr-2"><i class="fas fa-map-signs"></i></span>Introduction</a></li>
-				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span class="theme-icon-holder mr-2"><i class="fas fa-box"></i></span>APIs</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">API Rest</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Primeros pasos API Cargofive</a></li>
+						<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
+					</ul>
+					<!--//social-list-->
+
+				</div>
+				<!--//docs-top-utilities-->
+			</div>
+			<!--//container-->
+		</div>
+		<!--//branding-->
+	</header>
+	<!--//header-->
+
+	<div class="docs-wrapper">
+		<div id="docs-sidebar" class="docs-sidebar">
+			<div class="top-search-box d-lg-none p-3">
+				<form class="search-form">
+					<input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
+					<button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+				</form>
+			</div>
+			<nav id="docs-nav" class="docs-nav navbar">
+				<ul class="section-items list-unstyled nav flex-column pb-3">
+					<li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span
+								class="theme-icon-holder mr-2"><i class="fas fa-map-signs"></i></span>Introduction</a>
+					</li>
+					<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span
+								class="theme-icon-holder mr-2"><i class="fas fa-box"></i></span>APIs</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">API Rest</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Primeros pasos API Cargofive</a>
+					</li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Endpoints disponibles</a></li>
-				    <!--<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span class="theme-icon-holder mr-2"><i class="fas fa-cogs"></i></span>Integrations</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-4">Obtener Token</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-5">Usuario</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-6">Cotizaciones</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-7">Compañías</a></li>
+					<!--<li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span class="theme-icon-holder mr-2"><i class="fas fa-cogs"></i></span>Integrations</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Section Item 4.1</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Section Item 4.2</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Section Item 4.3</a></li>
@@ -97,20 +116,25 @@
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-9-1">Section Item 9.1</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-9-2">Section Item 9.2</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-9-3">Section Item 9.3</a></li>-->
-			    </ul>
+				</ul>
 
-		    </nav><!--//docs-nav-->
-	    </div><!--//docs-sidebar-->
-	    <div class="docs-content">
-		    <div class="container">
-			    <article class="docs-article" id="section-1">
-				    <header class="docs-header">
-					    <h1 class="docs-heading">Cargofive <span class="docs-time">Last updated: 2019-06-01</span></h1>
-					    <section class="docs-intro">
-						    <p>Cargofive es una plataforma que permite buscar, comparar y gestionar las tarifas de fletes marítimos entre distintas navieras en tiempo record, logrando obtener cotizaciones en solo unos pocos minutos.</p>
-						</section><!--//docs-intro-->
-				    </header>
-					
+			</nav>
+			<!--//docs-nav-->
+		</div>
+		<!--//docs-sidebar-->
+		<div class="docs-content">
+			<div class="container">
+				<article class="docs-article" id="section-1">
+					<header class="docs-header">
+						<h1 class="docs-heading">Cargofive <span class="docs-time">Last updated: 2019-06-01</span></h1>
+						<section class="docs-intro">
+							<p>Cargofive es una plataforma que permite buscar, comparar y gestionar las tarifas de
+								fletes marítimos entre distintas navieras en tiempo record, logrando obtener
+								cotizaciones en solo unos pocos minutos.</p>
+						</section>
+						<!--//docs-intro-->
+					</header>
+
 					<!--<section class="docs-section" id="item-1-2">
 						<h2 class="section-heading">Section Item 1.2</h2>
 						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
@@ -213,61 +237,94 @@
 						</div>
 						
 					</section><!--//section-->
-					
-			    </article>
-			    
-			    <article class="docs-article" id="section-3">
-				    <header class="docs-header">
-					    <h1 class="docs-heading">APIs</h1>
-				    </header>
-				     <section class="docs-section" id="item-3-1">
+
+				</article>
+
+				<article class="docs-article" id="section-3">
+					<header class="docs-header">
+						<h1 class="docs-heading">APIs</h1>
+					</header>
+					<section class="docs-section" id="item-3-1">
 						<h2 class="section-heading">API Rest</h2>
-						<p>API es un conjunto de reglas y especificaciones que las aplicaciones pueden seguir para comunicarse entre ellas. Para que lo entendamos, el uso de una API es el mecanismo más útil para conectar dos softwares entre sí, de esta manera, podemos garantizar el intercambio de mensajes o datos en formato estándar.</p>
+						<p>API es un conjunto de reglas y especificaciones que las aplicaciones pueden seguir para
+							comunicarse entre ellas. Para que lo entendamos, el uso de una API es el mecanismo más útil
+							para conectar dos softwares entre sí, de esta manera, podemos garantizar el intercambio de
+							mensajes o datos en formato estándar.</p>
 						<ul>
 							<li><b>Operaciones disponibles</b></li>
-							<p>Las operaciones disponibles en el entorno de la API son POST (crear), GET (leer y consultar), PUT (editar) y DELETE (borrar).</p>
+							<p>Las operaciones disponibles en el entorno de la API son POST (crear), GET (leer y
+								consultar), PUT (editar) y DELETE (borrar).</p>
 						</ul>
-					</section><!--//section-->
-					
+					</section>
+					<!--//section-->
+
 					<section class="docs-section" id="item-3-2">
 
 						<h2 class="section-heading">Primeros pasos API Cargofive</h2>
 						<ul>
 							<li><b>Obtener API Key</b></li>
-							<p>Para poder acceder al API de Cargofive necesitará contar con un usuario registrado y activo en nuestra plataforma. Teniendo esto, deberá acceder al sitio, dirigirse a “Settings”, “API Settings” y finalmente ingresar en  “API Tokens”.</p>
-							<p>En este módulo deberá seleccionar la opción “Add Password Grant Client”, con lo cual se generarán de forma automática las credenciales adicionales, necesarias para realizar la conexión al API. (Ver imagen 1)</p>
+							<p>Para poder acceder al API de Cargofive necesitará contar con un usuario registrado y
+								activo en nuestra plataforma. Teniendo esto, deberá acceder al sitio, dirigirse a
+								“Settings”, “API Settings” y finalmente ingresar en “API Tokens”.</p>
+							<p>En este módulo deberá seleccionar la opción “Add Password Grant Client”, con lo cual se
+								generarán de forma automática las credenciales adicionales, necesarias para realizar la
+								conexión al API. (Ver imagen 1)</p>
 
 							<li><b>Realizar pruebas con Potsman</b></li>
-							<p>Antes de llevar a cabo una integración completa probablemente querrá realizar algunas pruebas. Para tal fin puede utilizar la aplicación Postman, a continuación se hará una breve explicación de cómo instalarla y utilizarla correctamente.</p>
+							<p>Antes de llevar a cabo una integración completa probablemente querrá realizar algunas
+								pruebas. Para tal fin puede utilizar la aplicación Postman, a continuación se hará una
+								breve explicación de cómo instalarla y utilizarla correctamente.</p>
 
 							<li><b>Instalación Postman</b></li>
-							<p>Para instalar Postman deberá acceder al sitio <a href="https://www.postman.com/downloads" target="blank">https://www.postman.com/downloads</a> y proceder a descargar el instalador compatible con su sistema operativo.</p>
+							<p>Para instalar Postman deberá acceder al sitio <a href="https://www.postman.com/downloads"
+									target="blank">https://www.postman.com/downloads</a> y proceder a descargar el
+								instalador compatible con su sistema operativo.</p>
 
 							<li><b>Pruebas esenciales</b></li>
-							<p>Luego de instalado Postman podrá comenzar a realizar las pruebas necesarias. En esta sección utilizaremos algunos endpoints del API Cargofive que posteriormente se explicarán en detalle.</p>
+							<p>Luego de instalado Postman podrá comenzar a realizar las pruebas necesarias. En esta
+								sección utilizaremos algunos endpoints del API Cargofive que posteriormente se
+								explicarán en detalle.</p>
 							<ul>
 								<li><b>Headers</b></li>
-								<p>Antes de realizar una petición debe configurar los headers correspondientes (Ver imagen 2):</p>
+								<p>Antes de realizar una petición debe configurar los headers correspondientes (Ver
+									imagen 2):</p>
 								<p><code>Content-Type: application/json</code></p>
 								<p><code>X-Requested-With: XMLHttpRequest</code></p>
 
 								<li><b>Obtener Bearer Token</b></li>
-								<p>Para realizar una operación sobre el API Cargofive deberá contar con Bearer Token válido, lo cual acredita que se encuentra correctamente autenticado.</p>
-								<p>Para obtener el Bearer Token deberá hacer una llamada POST al endpoint https://app.cargofive.com/oauth/token junto con los siguientes parámetros que debe configurar en la pestaña Body seleccionando form-data. (Ver imagen 3):</p>
+								<p>Para realizar una operación sobre el API Cargofive deberá contar con Bearer Token
+									válido, lo cual acredita que se encuentra correctamente autenticado.</p>
+								<p>Para obtener el Bearer Token deberá hacer una llamada POST al endpoint
+									https://app.cargofive.com/oauth/token junto con los siguientes parámetros que debe
+									configurar en la pestaña Body seleccionando form-data. (Ver imagen 3):</p>
 								<ul>
-									<li>client_id: El client id es obtenido en la sección API Tokens de la app Cargofive.</li>
-									<li>client_secret: El client secret es obtenido en la sección API Tokens de la app Cargofive.</li>
+									<li>client_id: El client id es obtenido en la sección API Tokens de la app
+										Cargofive.</li>
+									<li>client_secret: El client secret es obtenido en la sección API Tokens de la app
+										Cargofive.</li>
 									<li>grant_type: Acá deberá colocar “password”.</li>
 									<li>username: El email con el cual se encuentra registrado en Cargofive.</li>
 									<li>password: El password que utiliza para el ingreso a Cargofive.</li>
 								</ul>
 								<br>
-								<p>Al completar la petición se le entregará el “access_token” con el cual podrá acceder a los diferentes endpoints del API Cargofive. Para ello deberá copiar el valor que se encuentra entre las comillas (“) y pegarlo en el valor Bearer Token ubicado en la pestaña autorización para todas las peticiones que vaya a realizar hacia el API Cargofive. (Ver imagen 4)</p>
+								<p>Al completar la petición se le entregará el “access_token” con el cual podrá acceder
+									a los diferentes endpoints del API Cargofive. Para ello deberá copiar el valor que
+									se encuentra entre las comillas (“) y pegarlo en el valor Bearer Token ubicado en la
+									pestaña autorización para todas las peticiones que vaya a realizar hacia el API
+									Cargofive. (Ver imagen 4)</p>
 
 								<li><b>Petición de prueba</b></li>
-								<p>Al contar con un bearer token (access_token) válido podrá realizar las diferentes operaciones que sean permitidas por el API. Para llevar a cabo esto primeramente deberá configurar el bearer token obtenido en el proceso previo. Antes de realizar cualquier petición diríjase a la pestaña Authorization y en el desplegable Type seleccione la opción Bearer Token y finalmente en el campo token pegue el valor del bearer token (access_token). (Ver imagen 5)</p>
+								<p>Al contar con un bearer token (access_token) válido podrá realizar las diferentes
+									operaciones que sean permitidas por el API. Para llevar a cabo esto primeramente
+									deberá configurar el bearer token obtenido en el proceso previo. Antes de realizar
+									cualquier petición diríjase a la pestaña Authorization y en el desplegable Type
+									seleccione la opción Bearer Token y finalmente en el campo token pegue el valor del
+									bearer token (access_token). (Ver imagen 5)</p>
 
-								<p>Configurado el bearer token, estará listo para poder realizar una petición válida al API. En esta oportunidad se ejemplificará una petición GET para consultar rates al siguiente endpoint: <a href="#">http://api.cargofive.com/search/rates/ORIGEN/DESTINO/INICIO/FIN</a></p>
+								<p>Configurado el bearer token, estará listo para poder realizar una petición válida al
+									API. En esta oportunidad se ejemplificará una petición GET para consultar rates al
+									siguiente endpoint: <a
+										href="#">http://api.cargofive.com/search/rates/ORIGEN/DESTINO/INICIO/FIN</a></p>
 
 								<p><b>Método:</b> GET</p>
 
@@ -279,22 +336,28 @@
 									<li>FIN: Fecha de finalización de validez </li>
 								</ul>
 								<br>
-								<p>El resultado de esta operación será un json con la información correspondiente a los rates definidos dentro de los parámetros enviados.</p>
+								<p>El resultado de esta operación será un json con la información correspondiente a los
+									rates definidos dentro de los parámetros enviados.</p>
 							</ul>
 						</ul>
-					</section><!--//section-->
+					</section>
+					<!--//section-->
 					<section class="docs-section" id="item-3-3">
 						<h2 class="section-heading">Endpoints disponibles</h2>
-						<p>Para acceder a cada endpoint deberá contar con un bearer token válido. Adicionalmente, cada petición cuenta con un parámetro opcional llamado “size” el cual limita la cantidad de registros que retorna una solicitud.</p>
+						<p>Para acceder a cada endpoint deberá contar con un bearer token válido. Adicionalmente, cada
+							petición cuenta con un parámetro opcional llamado “size” el cual limita la cantidad de
+							registros que retorna una solicitud.</p>
 						<p>Cargofive REST API <code>https://app.cargofive.com/api/v1/</code></p>
-
+					</section>
+					<section class="docs-section" id="item-3-4">
 						<ul>
 							<li><b>Obtener token</b></li>
 							<p><code><b>URL:</b>https://app.cargofive.com/oauth/token</code></p>
 							<p><code><b>Método:</b>POST</code></p>
 							<p><b>Parámetros</b></p>
 							<ul>
-								<li><b>grant_type:</b> Tipo de acceso que requiere el generador de token, su valor es “password”.</li>
+								<li><b>grant_type:</b> Tipo de acceso que requiere el generador de token, su valor es
+									“password”.</li>
 								<li><b>username:</b> email de acceso a Cargofive.</li>
 								<li><b>password:</b> contraseña de acceso a Cargofive.</li>
 								<li><b>scope:</b> su valor por defecto será *.</li>
@@ -303,26 +366,37 @@
 							</ul>
 							<br>
 							<p><b>Retorna:</b> JSON con Bearer token (access_token).</p>
-
+						</ul>
+					</section>
+					<section class="docs-section" id="item-3-5">
+						<ul>
 							<li><b>Usuario</b></li>
 							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/user</code></p>
 							<p><code><b>Método:</b>GET</code></p>
-							<br>
 							<p><b>Retorna:</b> JSON con el detalle del usuario autenticado.</p>
-
+						</ul>
+					</section>
+					<section class="docs-section" id="item-3-6">
+						<ul>
 							<li><b>Lista de cotizaciones</b></li>
 							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/quotes</code></p>
 							<p><code><b>Método:</b>GET</code></p>
 							<p><b>Parámetros</b></p>
 							<ul>
-								<li><b>Integration:</b> True //Si el valor es true, el listado solo devolverá cotizaciones nuevas y/o editadas recientementes, obviando aquellas que ya han sido integradas con anterioridad.</li>
+								<li><b>Integration:</b> True //Si el valor es true, el listado solo devolverá
+									cotizaciones
+									nuevas y/o editadas recientementes, obviando aquellas que ya han sido integradas con
+									anterioridad.</li>
 								<li><b>Type:</b> FCL, LCL o AIR.</li>
 								<li><b>Status:</b> Win, Draft, Sent, Negotiated, Lost.</li>
-								<li><b>Size:</b> Limita la cantidad de registros que retorna la consulta. Indicar un número entero.</li>
+								<li><b>Size:</b> Limita la cantidad de registros que retorna la consulta. Indicar un
+									número
+									entero.</li>
 							</ul>
 							<br>
-							<p><b>Retorna:</b>Listado JSON con el detalle de cada cotización asociada al usuario que consulta.</p>
-
+							<p><b>Retorna:</b>Listado JSON con el detalle de cada cotización asociada al usuario que
+								consulta.</p>
+							<br>
 							<li><b>Cotización por ID</b></li>
 							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/quotes/ID</code></p>
 							<p><code><b>Método:</b>GET</code></p>
@@ -332,13 +406,17 @@
 							</ul>
 							<br>
 							<p><b>Retorna:</b> JSON con el detalle de la cotización solicitada.</p>
-
+						</ul>
+					</section>
+					<section class="docs-section" id="item-3-7">
+						<ul>
 							<li><b>Compañías</b></li>
 							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/companies</code></p>
 							<p><code><b>Método:</b>GET</code></p>
+							<p><b>Retorna:</b> Listado JSON con el detalle de cada compañía cliente asociada al usuario
+								que
+								consulta.</p>
 							<br>
-							<p><b>Retorna:</b> Listado JSON con el detalle de cada compañía cliente asociada al usuario que consulta.</p>
-
 							<li><b>Crear compañía</b></li>
 							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/company</code></p>
 							<p><code><b>Método:</b>POST</code></p>
@@ -349,14 +427,19 @@
 								<li><b>address:</b> Dirección de la compañía.</li>
 								<li><b>email:</b> Dirección de correo electrónico.</li>
 								<li><b>tax_number:</b> Número de contribuyente.</li>
-								<li><b>company_user_id:</b> ID de la compañía a la que pertenece el usuario autenticado.</li>
+								<li><b>company_user_id:</b> ID de la compañía a la que pertenece el usuario autenticado.
+								</li>
 								<li><b>owner:</b> ID del usuario autenticado.</li>
-								<li><b>pdf_language:</b> Lenguaje en el cual se genera el PDF para una cotización asociada a la compañía que se está creando.</li>
+								<li><b>pdf_language:</b> Lenguaje en el cual se genera el PDF para una cotización
+									asociada a
+									la compañía que se está creando.</li>
 								<li><b>payment_conditions:</b> Condiciones de pago.</li>
 							</ul>
 							<br>
-							<p><b>Retorna:</b> Listado JSON con el detalle de cada compañía cliente asociada al usuario que consulta.</p>
-
+							<p><b>Retorna:</b> Listado JSON con el detalle de cada compañía cliente asociada al usuario
+								que
+								consulta.</p>
+							<br>
 							<li><b>Ver Compañía</b></li>
 							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/company/ID</code></p>
 							<p><code><b>Método:</b>GET</code></p>
@@ -366,7 +449,7 @@
 							</ul>
 							<br>
 							<p><b>Retorna:</b> JSON con el detalle de la compañía solicitada.</p>
-
+							<br>
 							<li><b>Actualizar Compañía</b></li>
 							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/company/ID</code></p>
 							<p><code><b>Método:</b>PUT</code></p>
@@ -374,22 +457,30 @@
 							<ul>
 								<li><b>ID:</b> Id de la compañía a modificar.</li>
 							</ul>
+							<p>
+								<b>Importante:</b> Al realizar con pruebas con postman puede que al enviar la petición
+								con
+								PUT, este no complete la acción solicitada (Es una incidencia de postman documentada),
+								de
+								ocurrir esto, cambie el método a POST y agregue dentro del form-data del body lo
+								siguiente:
+								_method: PUT.
+							</p>
 							<br>
-							<p><b>Importante:</b> Al realizar con pruebas con postman puede que al enviar la petición con PUT, este no complete la acción solicitada (Es una incidencia de postman documentada), de ocurrir esto, cambie el método a POST y agregue dentro del form-data del body lo siguiente: _method: PUT.</p>
-
 							<li><b>Eliminar Compañía</b></li>
-							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/user</code></p>
+							<p><code><b>URL:</b>https://app.cargofive.com/api/v1/company/ID</code></p>
 							<p><code><b>Método:</b>DELETE</code></p>
 							<p><b>Parámetros</b></p>
 							<ul>
 								<li><b>ID:</b> Id de la compañía a modificar.</li>
 							</ul>
 						</ul>
+					</section>
+					<!--//section-->
+				</article>
+				<!--//docs-article-->
 
-					</section><!--//section-->
-			    </article><!--//docs-article-->			    
-			    
-			    <!--<article class="docs-article" id="section-9">
+				<!--<article class="docs-article" id="section-9">
 				    <header class="docs-header">
 					    <h1 class="docs-heading">FAQs</h1>
 					    <section class="docs-intro">
@@ -431,38 +522,41 @@
 					</section>
 			    </article><!--//docs-article-->
 
-			    <footer class="footer">
-				    <div class="container text-center py-5">
-				        <small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
-				        <ul class="social-list list-unstyled pt-4 mb-0">
-						    <li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li> 
-				            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-				            <li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
-				            <li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
-				            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li>
-				            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-fw"></i></a></li>
-				        </ul><!--//social-list-->
-				    </div>
-			    </footer>
-		    </div> 
-	    </div>
-    </div><!--//docs-wrapper-->
-    
-   
-       
-    <!-- Javascript -->          
-    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
-    <script src="assets/plugins/popper.min.js"></script>
-    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
-    
-    
-    <!-- Page Specific JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
-    <script src="assets/js/highlight-custom.js"></script> 
-    <script src="assets/plugins/jquery.scrollTo.min.js"></script>
-    <script src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script> 
-    <script src="assets/js/docs.js"></script> 
+				<footer class="footer">
+					<div class="container text-center py-5">
+						<small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/"
+								target="_blank">3rd Wave Media</a></small>
+						<ul class="social-list list-unstyled pt-4 mb-0">
+							<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-fw"></i></a></li>
+						</ul>
+						<!--//social-list-->
+					</div>
+				</footer>
+			</div>
+		</div>
+	</div>
+	<!--//docs-wrapper-->
+
+
+
+	<!-- Javascript -->
+	<script src="assets/plugins/jquery-3.4.1.min.js"></script>
+	<script src="assets/plugins/popper.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+
+	<!-- Page Specific JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+	<script src="assets/js/highlight-custom.js"></script>
+	<script src="assets/plugins/jquery.scrollTo.min.js"></script>
+	<script src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
+	<script src="assets/js/docs.js"></script>
 
 </body>
-</html> 
 
+</html>
